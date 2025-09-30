@@ -73,9 +73,19 @@ res/
 
 1.  Clone the remote repository:
 
+
+
 ```
-git clone git@github.com:<your-repo>/MovieManagementSystem_OOP2.git
+git clone https://github.com/QixiaoLiu0/MovieManagementSystem_OOP2.git
 ```
+
+or
+
+
+```
+git clone git@github.com:QixiaoLiu0/MovieManagementSystem_OOP2.git
+```
+
 
 
 2.  Import into Eclipse:
