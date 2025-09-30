@@ -101,7 +101,7 @@ git clone git@github.com:QixiaoLiu0/MovieManagementSystem_OOP2.git
 
 ```main```: Stable branch containing only tested, working code.
 
-```feature/<classname>```: Each member works on their own feature branch.
+```feature/<classname>```: **Each member must work on their own feature branch.(critical)**
 
 - Example: ```feature/movie```, ```feature/validator```
 
