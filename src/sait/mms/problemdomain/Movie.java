@@ -42,28 +42,10 @@ public class Movie {
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	@Override
 	public String toString() {
-	    return "Movie{" +
-	            "title='" + title + '\'' +
-	            ", duration=" + duration +
-	            " minutes" +
-	            ", year=" + year +
-	            '}';
+			//TODO
+	    return "";
 	}
 	
 	
