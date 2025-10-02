@@ -11,6 +11,8 @@ public class Movie {
 		this.year = year;
 	}
 	
+	
+	//test
 	public int getDuration() {
 		//TODO
 		
