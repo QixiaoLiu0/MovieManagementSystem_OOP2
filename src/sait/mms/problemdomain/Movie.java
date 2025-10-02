@@ -12,42 +12,42 @@ public class Movie {
 	}
 	
 	
-	//test
 	public int getDuration() {
-		//TODO
+		return duration;
 		
-		return 0;
 }
 
 	public void setDuration(int duration) {
-		//TODO
+		this.duration = duration;
 	}
 
 	public String getTitle() {
-		// TODO
+		return title;
 		
-    return "";
 	}
 
 	public void setTitle(String title) {
-    //TODO
+		this.title = title;
 	}
 
 	public int getYear() {
-		//TODO
+		return year;
 		
-		return 0;
 	}
 
 	public void setYear(int year) {
-		 //TODO
+		this.year = year;
 	}
 	
 	
 	@Override
 	public String toString() {
-			//TODO
-	    return "";
+		return "Movie{" +
+	            "title='" + title + '\'' +
+	            ", duration=" + duration +
+	            " minutes" +
+	            ", year=" + year +
+	            '}';
 	}
 	
 	
