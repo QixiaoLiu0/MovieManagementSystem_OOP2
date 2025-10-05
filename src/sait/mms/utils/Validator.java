@@ -12,7 +12,9 @@ public class Validator {
   	if (movie.getDuration() <= 0) {
         return false;
     }
-
+  	if (movie.getYear() <= 0) {
+        return false;
+    }
       return true;
   }
   
