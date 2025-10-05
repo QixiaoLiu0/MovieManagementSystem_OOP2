@@ -6,7 +6,12 @@ public class Validator {
 
   
   public static boolean validateMovie(Movie movie) {
-  	//TODO
+  	if (movie == null) {
+  		return false;
+  	}
+  	if (movie.getDuration() <= 0) {
+        return false;
+    }
 
       return true;
   }
