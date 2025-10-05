@@ -15,6 +15,9 @@ public class Validator {
   	if (movie.getYear() <= 0) {
         return false;
     }
+    if (movie.getTitle() == null || movie.getTitle().trim().isEmpty()) {
+        return false;
+    }
       return true;
   }
   
